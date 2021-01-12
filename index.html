@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+  <title> Group A Sci-Toolset API </title>
+  </script>
+
+    <meta charset="utf-8">
+    
+  </head>
+  <body>
+
+    <h1>Group A: Sci-Toolset API </h1>
+
+    <!---<label for="datePick">Pick a Date: </label>
+    <label for="datePick2">Pick another Date: </label>-->
+    
+    <input type="date" name="datePick" id="datePick" required>
+    <input type="date" style="display:none" name="datePick2" id="datePick2">
+    <script>
+
+      
+      
+      
+    </script>
+
+    <div id="mapid"></div>
+    
+    <button class="button" onclick="RevealFunction()" id="buttonToggle"> Toggle Date 2 Select </button>
+    <button class="button" id="buttonConfirm" onclick="displayStart()"> Confirm Dates </button>
+
+    <script type="text/javascript" src="APIData.js"></script>
+    <script type="text/javascript" src="missionData.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="L.Control.MousePosition.js"></script>
+    <script type="text/javascript" src="mapWork.js"></script>
+
+    
+
+</body></html>
